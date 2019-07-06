@@ -86,6 +86,7 @@ div.gallery {
     font-size: 72pt;
     font-family: cursive;
     color:greenyellow;
+    align-items: center;
 }
 /*+-+-+-Tea and Coffee shop+-+-+-*/
 
@@ -105,5 +106,4 @@ div.gallery {
     width: 100%;
     height: auto;
     border-radius: 50%;
-
   }
