@@ -1,3 +1,50 @@
+/*Set the page margin to zero*/
 *{
     margin: 0;
 }
+html body{
+    height: 100%;
+}
+/*+-+-Navigation Bar Started*/
+header{
+    height: 50px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex: 1;
+    align-items: center;   
+}
+.navbar{
+    margin-inline-start: 30%;
+}
+nav> a {
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+    padding: 10px 20px;
+    margin-left: 8px;
+    font-weight: bolder;
+    border-radius: 4%;
+}
+.home{
+    background-color:white;
+    color: black;
+}
+.home:hover{
+    background-color:rgba(0,0,0,0.4);
+    color: white;
+    transition-duration: 1s;
+}
+.n_o:hover {
+    background-color:white;
+    color: black;
+    transition-duration: 1s;
+}
+
+li>.x{
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+/*+-+-Navigation Bar Ended*/
