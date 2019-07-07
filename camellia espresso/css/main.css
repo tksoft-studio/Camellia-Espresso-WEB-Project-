@@ -88,6 +88,18 @@ div.gallery {
     color:greenyellow;
     align-items: center;
 }
+
+#layer2{
+    font-size: 72pt;
+    font-family: cursive;
+    color:aqua;
+    align-items: center;}
+#layer1:hover{
+    color: yellow;
+}
+#layer2:hover{
+    color:rgba(255,0,0,0.8);
+}
 /*+-+-+-Tea and Coffee shop+-+-+-*/
 
 div.gallery {
@@ -99,11 +111,22 @@ div.gallery {
     border-style: none;
   }
   div.gallery:hover{
-    border-style: none;
-
+    border-style: 20%;
+    border-top-width: 20px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-left-width: 20px;
+    border-color:rgba(128,0,128,0.8);
+    border-radius: 20%;
   }
   div.gallery img {
     width: 100%;
     height: auto;
     border-radius: 50%;
+  }
+
+  #online{
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
   }
