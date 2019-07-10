@@ -79,8 +79,17 @@ div.gallery {
 
 }
 .x{
-    border-radius: 5%;
+   border-radius: 10%;
 }
+.xl{
+    padding-left: 250px;
+    padding-top: 100px;
+    border-radius: 20%;
+}
+.xl:hover{
+    opacity: 0.9;
+}
+
 
 #layer1{
     font-size: 72pt;
@@ -111,13 +120,7 @@ div.gallery {
     border-style: none;
   }
   div.gallery:hover{
-    border-style: 20%;
-    border-top-width: 20px;
-    border-top-style: solid;
-    border-left-style: solid;
-    border-left-width: 20px;
-    border-color:rgba(128,0,128,0.8);
-    border-radius: 20%;
+    border-style: none;
   }
   div.gallery img {
     width: 100%;
@@ -130,3 +133,13 @@ div.gallery {
       background-attachment: fixed;
 
   }
+    .vt{
+        border-style: none;
+  }
+  #myVideo {
+   padding-left: 35px;
+  }
+
+
+ 
+  
