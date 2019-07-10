@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 10, 2019 at 03:50 AM
+-- Generation Time: Jul 10, 2019 at 04:06 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.12
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `web`
 --
+CREATE DATABASE IF NOT EXISTS `web` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `web`;
 
 -- --------------------------------------------------------
 
@@ -28,6 +30,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `form`
 --
 
+DROP TABLE IF EXISTS `form`;
 CREATE TABLE `form` (
   `Name` varchar(50) NOT NULL,
   `E-mail` varchar(30) NOT NULL,
