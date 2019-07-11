@@ -79,14 +79,35 @@ div.gallery {
 
 }
 .x{
-    border-radius: 5%;
+   border-radius: 10%;
 }
+.xl{
+    padding-left: 250px;
+    padding-top: 100px;
+    border-radius: 20%;
+}
+.xl:hover{
+    opacity: 0.9;
+}
+
 
 #layer1{
     font-size: 72pt;
     font-family: cursive;
     color:greenyellow;
     align-items: center;
+}
+
+#layer2{
+    font-size: 72pt;
+    font-family: cursive;
+    color:aqua;
+    align-items: center;}
+#layer1:hover{
+    color: yellow;
+}
+#layer2:hover{
+    color:rgba(255,0,0,0.8);
 }
 /*+-+-+-Tea and Coffee shop+-+-+-*/
 
@@ -100,10 +121,25 @@ div.gallery {
   }
   div.gallery:hover{
     border-style: none;
-
   }
   div.gallery img {
     width: 100%;
     height: auto;
     border-radius: 50%;
   }
+
+  #online{
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
+  }
+    .vt{
+        border-style: none;
+  }
+  #myVideo {
+   padding-left: 35px;
+  }
+
+
+ 
+  
