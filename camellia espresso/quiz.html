@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link  rel="stylesheet" href="css/main.css">
+    <link  rel="stylesheet" href="css/quiz.css">
+    <script src="js/quiz.js"></script>
 </head>
 <body>
     <header>
@@ -17,9 +19,170 @@
         </nav>
         
     </header>
-    <main>
-        <!--Here's the body part-->
-    </main>
+    <form class="box"> 
+        <input type="checkbox" id="bp" onclick="blood()">&nbsp High Blood Pressure</input><br>
+        <input type="checkbox" id="db" onclick="sugar()">&nbsp Diabetes</input><br>
+        <input type="checkbox" id="wl" onclick="weight()">&nbsp Obesity and Cholesterol</input><br>
+        <input type="checkbox" id="cc" onclick="cancer()">&nbsp Cancer</input><br>
+        <input type="checkbox" id="bt" onclick="beauty()">&nbsp Skin diseases & Beauty</input><br>
+
+    </form>
         
+    <div class="wrap">
+    <section id="blood">
+        <div class="card">
+            <a href="image link"><img src="img/hibi.jpg" alt="Hibiscus Tea"></a>
+            
+            <div class="container" style="background-color:rgba(255,0,0,0.1)">
+                <h4><b>Hibiscus Tea</b></h4><br>
+                <p>LKR 2500.00</p><br>
+                <p class="font">Hibiscus tea is a herbal tea made as an infusion from crimson or deep magenta-colored calyces of the roselle flower. It is consumed both hot and cold. It has a tart, cranberry-like flavor.
+                </p><br>
+                <center><button>Purchase</button></center><br>
+            </div> 
+        </div>
+        <div class="card">
+            <a href="image link"><img src="img/cinnamon.jpg" alt="Cinnamon tea"></a>
+            <div class="container" style="background-color:rgba(255,0,0,0.1)">
+               <h4><b>Cinnamon Black Tea</b></h4><br>
+               <p>LKR1,950.00</p><br>
+               <p class="font">The warm flavour of cinnamon instantly helps you feel calm and content and is perfect for when you want to relax. 
+                   This tea is available in stapler free individually wrapped tea bags that ensure the tea is garden fresh.
+               </p><br>
+               <center><button>Purchase</button></center><br>
+          
+           </div> 
+       </div>
+
+       <div class="card">
+        <a href="image link"><img src="img/oolong.jpg" alt="Oolong tea"></a>
+        <div class="container" style="background-color:rgba(255,0,0,0.1)">
+           <h4><b>Oolong tea</b></h4><br>
+           <p>LKR 2,700.00</p><br>
+           <p class="font">Oolong teas varying from light Springtime Oolong Teas which has a gentle, floral and mild sweetness to the heavier
+               dark Oolongs which are woody, sometimes earthy with heavy fruit and occasionally caramelised notes, 
+               Oolong teas are partly oxidised or fermented.</p><br>
+           <center><button>Purchase</button></center><br>
+      
+       </div> 
+   </div>
+
+    </section>
+
+    <section id="sugar">
+        <div class="card">
+            <a href="image link"><img src="img/green.jpg" alt="Green Tea"></a>
+            <div class="container" style="background-color:rgba(0,255,0,0.1)">
+               <h4><b>Green Tea</b></h4><br>
+               <p>LKR1,713.00</p><br>
+               <p class="font">Ceylon Green tea comes with 
+                   a toasty character, delicate aroma and refreshing taste. Zesta Green Tea is also available as tea bags for 
+                   your convenience and enjoyment.</p><br>
+               <center><button>Purchase</button></center><br>
+           </div> 
+       </div>
+
+       <div class="card">
+        <a href="image-link"><img src="img/cha.jpg" alt="Chamomile Tea"></a>
+        
+        <div class="container" style="background-color:rgba(0,255,0,0.1)">
+                <h4><b>Chamomile Tea</b></h4><br>
+                <p>LKR 2000.00</p><br>
+                <p class="font">Chamomile or camomile is the common name for several daisy-like plants of the family Asteraceae. Two of the species are commonly used to make herbal infusions for traditional medicine.
+                </p><br>
+                <center><button>Purchase</button></center><br>
+     
+       </div> 
+   </div>   
+
+       <div class="card">
+        <a href="image link"><img src="img/ginger.jpg" alt="Ginger Tea"></a>
+        <div class="container" style="background-color:rgba(0,255,0,0.1)">
+           <h4><b>Ginger Tea</b></h4><br>
+           <p>LKR 1,500.00</p><br>
+           <p class="font">The revitalising zingy flavour of Ginger makes this tea perfect for any time of the day. Sip this as a warm 
+              beverage and feel your cares melt away.</p><br><br>
+          <center><button>Purchase</button></center><br>
+     
+       </div> 
+   </div>   
+
+   
+    </section>
+
+    <section id="weight">
+
+            <div class="card">
+                    <a href="image link"><img src="img/cinnamon.jpg" alt="Cinnamon tea"></a>
+                    <div class="container" style="background-color:rgba(0,0,255,0.1)">
+                       <h4><b>Cinnamon Black Tea</b></h4><br>
+                       <p>LKR 2,200.00</p><br>
+                       <p class="font">The warm flavour of cinnamon instantly helps you feel calm and content and is perfect for when you want to relax. 
+                           This tea is available in stapler free individually wrapped tea bags that ensure the tea is garden fresh.
+                       </p><br>
+                       <center><button>Purchase</button></center><br>
+                  
+                   </div> 
+                </div>
+
+                <div class="card">
+                        <a href="image link"><img src="img/herbal.JPG" alt="Citrus Herbal Tea" ></a>
+                        <div class="container" style="background-color:rgba(0,0,255,0.1)">
+                           <h4><b>Citrus Spice Herbal Tea</b></h4><br>
+                           <p>LKR 3,500.00</p><br>
+                           <p class="font">Treat yourself to a lively and luscious blend of naturally caffeine free that combines premium herbs, spices and 
+                               fruits with South African Rooibos..</p><br>
+                           <center><button>Purchase</button></center><br>
+                      
+                       </div> 
+                    </div>
+
+        <div class="card">
+            <a href="image link"><img src="img/green.jpg" alt="Green Tea"></a>
+            <div class="container" style="background-color:rgba(0,0,255,0.1)">
+               <h4><b>Green Tea</b></h4><br>
+               <p>LKR1,713.00</p><br>
+               <p class="font">Ceylon Green tea comes with 
+                   a toasty character, delicate aroma and refreshing taste. Zesta Green Tea is also available as tea bags for 
+                   your convenience and enjoyment.</p><br>
+               <center><button>Purchase</button></center><br>
+           </div> 
+       </div>
+
+       
+    
+    </section>
+    <section id="cancer">
+
+            <div class="card">
+                    <a href="image-link"><img src="img/wt.jpg" alt="White Tea"></a>
+                    
+                        <div class="container">
+                            <h4><b>White Tea</b></h4><br>
+                            <p>LKR 6000.00 (50g)</p><br>
+                            <p class="font">White tea may refer to one of several styles of tea which generally feature young or minimally processed leaves of the Camellia sinensis plant.
+                            </p><br>
+                            <center><button>Purchase</button></center><br>
+                        </div>
+            </div>
+
+    </section>
+
+    <section id="beauty">
+
+            <div class="card">
+                    <a href="image-link"><img src="img/mor.jpg" alt="Chamomile Tea"></a>
+                    
+                    <div class="container" style="background-color:rgba(255, 255, 0, 0.2)">
+                            <h4><b>Moringa Tea</b></h4><br>
+                            <p>LKR 450.00</p><br>
+                            <p class="font">Moringa contains protein, which means it is helpful in protecting skin cells from damage. It also contains hydrating and detoxifying elements, which also boost the skin and hair.
+                            </p><br>
+                            <center><button>Purchase</button></center><br>
+                        </div>
+            </div>
+    </section>
+    </div>
+
 </body>
 </html>
