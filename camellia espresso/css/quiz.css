@@ -6,15 +6,17 @@
 	border-right-style: solid;
 	border-right-width: 10px;
 	margin-left: 500px;
-	margin-right: 5500px;
+	margin-right: 550px;
 	margin-top: 100px;
 	padding-left: 30px;
 	padding-top: 30px;
 	border-bottom-width: 10px;
 	border-bottom-style: solid;
 	padding-bottom: 30px;
-	width: 200px;
-	padding-right: 10px;
+	width: 330px;
+	height: 110px;
+	padding-right: 0px;
+	font-size: 14pt;
 }
 
 .wrap{
