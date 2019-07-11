@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 10, 2019 at 04:06 AM
+-- Generation Time: Jul 11, 2019 at 08:31 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.12
 
@@ -27,34 +27,26 @@ USE `web`;
 -- --------------------------------------------------------
 
 --
--- Table structure for table `form`
+-- Table structure for table `camellia`
 --
 
-DROP TABLE IF EXISTS `form`;
-CREATE TABLE `form` (
-  `Name` varchar(50) NOT NULL,
-  `E-mail` varchar(30) NOT NULL,
-  `Address` varchar(255) NOT NULL,
-  `Telephone` varchar(10) NOT NULL
+DROP TABLE IF EXISTS `camellia`;
+CREATE TABLE IF NOT EXISTS `camellia` (
+  `name` varchar(30) NOT NULL,
+  `email` varchar(40) NOT NULL,
+  `address` varchar(255) NOT NULL,
+  `telephone` int(10) NOT NULL,
+  `password` varchar(10) NOT NULL,
+  PRIMARY KEY (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `form`
+-- Dumping data for table `camellia`
 --
 
-INSERT INTO `form` (`Name`, `E-mail`, `Address`, `Telephone`) VALUES
-('Tharusha', 'tharushakudagala1997@gmail.com', '229/7,\r\nNaduhena,\r\nMeegoda', '112855067'),
-('Yashen', 'yrsamarasingha@students.nsbm.l', '224/75 Lotus terrace, Maththegoda', '0719220263');
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `form`
---
-ALTER TABLE `form`
-  ADD PRIMARY KEY (`E-mail`);
+INSERT INTO `camellia` (`name`, `email`, `address`, `telephone`, `password`) VALUES
+('Tharusha', 'tharushakudagala1997@gmail.com', '229/7, Ramyawimana Place,\r\nPuwakgahahena,\r\nMeegoda', 768483690, '10026113'),
+('Yashen', 'yrsamarasingha@students.nsbm.lk', 'Maththegoda', 112751112, 'yr123');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

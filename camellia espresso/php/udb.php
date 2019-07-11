@@ -13,16 +13,17 @@ if(isset($_POST['submit']))
     $email = $_POST['email'];
     $address = $_POST['address'];
     $tele = $_POST['tele'];
+    $pwd = $_POST['pwd'];
 
-    $query = "insert into form values ('$name','$email','$address','$tele');";
-    if(empty($name)||empty($email)||empty($address)||empty($tele))
+    $query = "insert into camellia values ('$name','$email','$address','$tele','$pwd');";
+    if(empty($name)||empty($email)||empty($address)||empty($tele)||empty($pwd))
     {
         header("Location: index.php"); 
     }
     else{
         if($con ->query($query))
         {
-            echo "Record added Successfully !";
+            header("Location: check.html");
         }
     else
         {
