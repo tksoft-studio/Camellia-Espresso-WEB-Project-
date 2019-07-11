@@ -78,17 +78,6 @@ div.gallery {
     margin: 2cm 4cm ;
 
 }
-.x{
-   border-radius: 10%;
-}
-.xl{
-    padding-left: 250px;
-    padding-top: 100px;
-    border-radius: 20%;
-}
-.xl:hover{
-    opacity: 0.9;
-}
 
 
 #layer1{
