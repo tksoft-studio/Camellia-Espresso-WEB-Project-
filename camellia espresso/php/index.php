@@ -9,7 +9,7 @@
 }
 </style>
 </head>
-<body style="background-color: black">
+<body background="../img/login.gif">
 
 	 <header>
 	 	<nav>

@@ -3,7 +3,7 @@
 <title>Log in</title>
 <link rel="stylesheet" href="../css/php.css">
 </head>
-<body style="background-color: purple;"> 
+<body background="../img/Blackcoffee2.jpeg"> 
 
 <header>
 	 	<nav>
