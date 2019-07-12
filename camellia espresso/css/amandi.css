@@ -10,7 +10,7 @@
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,6);
 	transition: 0.4s;
 	width: 300px;
-	background: rgb(119, 65, 65);
+	background: rgba(119, 65, 65, 0.8);
 	text-align: center;
 	font-size: 16px;
 	font-family: sans-serif;
@@ -33,9 +33,11 @@ img {
 }
 .container{
 	padding : 3px 16px;
+	color: yellow;
 }
 
 .font{
 	font-size: 8pt;
+	color: white;
 }
 
